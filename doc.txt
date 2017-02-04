@@ -1,0 +1,22 @@
+https://github.com/angular/angular-cli
+https://material.angular.io/guide/getting-started
+https://materialicons.github.io/
+
+npm install -g angular-cli
+
+ng new angular2-starter
+cd angular2-starter
+
+ng serve
+ng serve --env=prod
+
+http://localhost:4200
+
+ng serve --host 0.0.0.0 --port 4201 --live-reload-port 49153
+
+ng build
+
+ng build --env=prod
+
+cd dist
+python -m SimpleHTTPServer 8000

@@ -18,7 +18,9 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.css",
+        "material2-app-theme.scss",
+        "../node_modules/material-icons/css/material-icons.min.css"
       ],
       "scripts": [],
       "environments": {
