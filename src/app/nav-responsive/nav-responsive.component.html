@@ -1,0 +1,32 @@
+
+<md-sidenav #sidenav mode="side" class="md-sidenav-left md-whiteframe-z2">
+  <md-toolbar style="cursor:pointer" (click)="sidenav.toggle()" color="primary">
+    <h5 class="md-toolbar-tools" >Side Nav</h5>
+  </md-toolbar>
+
+  <md-list>
+    <md-list-item> <button md-button [routerLink]="['/home']">Home</button> </md-list-item>
+    <md-list-item> <button md-button [routerLink]="['/test']">Test</button> </md-list-item>
+  </md-list>
+
+</md-sidenav>
+
+<md-toolbar color="primary">
+
+  <button md-button (click)="sidenav.toggle()">
+    <i class="material-icons app-toolbar-menu">menu</i>
+  </button>
+
+  &nbsp;
+
+  <a class="navbar-brand" [routerLink]="['/']">
+    <img src="../../assets/images/AngularJS2-small.png" width="150" height="35">
+  </a>
+
+  <button md-button [routerLink]="['/home']">Home</button>
+  <button md-button [routerLink]="['/test']">Test</button>
+
+  <span class="app-toolbar-filler"></span>
+
+  <!--<button md-button (click)="isDarkTheme = !isDarkTheme">Theme</button>-->
+</md-toolbar>

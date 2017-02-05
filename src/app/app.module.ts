@@ -10,13 +10,15 @@ import 'hammerjs';
 import { HomeComponent } from './home/home.component';
 import { TestComponent } from './test/test.component';
 import { NavComponent } from './nav/nav.component';
+import { NavResponsiveComponent } from './nav-responsive/nav-responsive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     TestComponent,
-    NavComponent
+    NavComponent,
+    NavResponsiveComponent
   ],
   imports: [
     BrowserModule,
